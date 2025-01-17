@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: rgb(234, 235, 214);
+  margin: 0;
+}
+
+.login-form {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 283px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #45af50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-group a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-group a:hover {
+  text-decoration: underline;
+}
+
+.register-form {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form2 {
+  padding: 20px;
+  border-radius: 8px;
+
+  width: 300px;
+}
+
+.login-form2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-contact {
+  height: 150px;
+}
+
+iframe {
+  width: 300px;
+  height: 300px;
+}
